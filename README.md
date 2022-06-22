@@ -1,6 +1,7 @@
 # cmake-make-library-for-windows
 在windows 使用Clion下生成动态库和静态库的demo
-区别：
+
+**windows下动态库与静态库区别**
 1. windows 生成库会自添加后缀静态库.lib 动态库.dll
 linux 会自动添加静态库.a 动态库.so 后缀和前缀lib
 2. cmake 添加库 使用 target_link_libraries
